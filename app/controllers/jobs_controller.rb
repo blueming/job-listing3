@@ -41,7 +41,7 @@ end
 
     @job.destroy
 
-    redirect_to jogs_path
+    redirect_to jobs_path
   end
 
   private
