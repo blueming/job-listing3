@@ -41,7 +41,7 @@ class Admin::JobsController < ApplicationController
   end
 
   def edit
-    @jod = Job.find(params[:id])
+    @job = Job.find(params[:id])
   end
 
   def update
