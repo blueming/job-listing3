@@ -98,7 +98,7 @@
 }
 
 .navbar-default {
-     background-color: #1565C0;  //背景#1565C0颜色
+     background-color: #455A64;  //背景#1565C0颜色
 
      border-color: #212121; //边框色
 
@@ -279,4 +279,15 @@
 
  .login-help{
    font-size: 12px;
+ }
+
+ //---------Footer---------
+
+ footer {
+     color: white;
+ }
+
+ footer .footer-below {
+     padding: 25px 0;
+     background-color: #455A64;
  }
