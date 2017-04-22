@@ -71,7 +71,7 @@
 }
 
 .caption {
-  margin: 30px;
+  margin: 20px;
   text-align: center;
   top: 20px;
 }
@@ -102,7 +102,7 @@
 
      border-color: #212121; //边框色
 
-     margin-bottom: 0; //底部 margin 不撑开距离
+     margin-bottom: 0; //底部 margin 不撑开距离.
  }
 
  @media (min-width: 768px) {
@@ -112,7 +112,7 @@
  }
 
  .navbar-default .navbar-brand {
-   color: #EF6C00; //字体颜色
+   color: white; //字体颜色
 
    padding: 10px 15px; //上下10px，左右15px
    line-height: 30px; //文字行高
@@ -120,13 +120,13 @@
 
  .navbar-default .navbar-brand:hover,
  .navbar-default .navbar-brand:focus {
-   color: #FF6F00; //鼠标放置在链接上的文字颜色
+   color: #455A64; //鼠标放置在链接上的文字颜色
 
-   background-color: #1565C0; //鼠标放置在链接上的背景颜色，这里设为透明
+   background-color: 0; //鼠标放置在链接上的背景颜色，这里设为透明
  }
 
  .navbar-default .navbar-nav > li > a{
-   color: #EF6C00;
+   color: white;
 
  }
 
@@ -154,6 +154,13 @@
 
  }
 
+ .navbar-brand > img {
+      display: inline-block; //图片和链接文字显示在同一行
+      margin-right: 10px; //图片和链接文字拉开一点距离
+      width: 32px; //定制图片宽度
+      height: 32px; //定制图片高度
+  }
+
  .container-fluid .jumbotron{
     padding-bottom: 110px;//内部的底部边距，这样按钮不会很靠近底部了
     margin: 0 -15px 20px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
@@ -161,18 +168,18 @@
   }
 
   .btn-danger {
-       color: #fff;//字体颜色
+       color: #00897B;//字体颜色
 
-       background-color: #EF6C00;//背景颜色
+       background-color: #455A64;//背景颜色
 
-       border-color: #EF6C00;//边框颜色
+       border-color: #455A64;//边框颜色
 
    }
 
    .btn-danger:hover {
-       background-color: #E65100;//鼠标放置在btn上的背景颜色
+       background-color: #455A64;//鼠标放置在btn上的背景颜色
 
-       border-color: #E65100;//鼠标放置在btn上的边框颜色
+       border-color: #455A64;//鼠标放置在btn上的边框颜色
 
    }
 
@@ -181,7 +188,7 @@
      font-size: 20px;//btn文字大小
      letter-spacing: 3px;//调整文字间距
      border-radius: 3px;//btn圆角
-     width: 460px;//这里用指定宽度把btn拉得更长
+     width: 120px;//这里用指定宽度把btn拉得更长
  }
 
  @import url(http://fonts.googleapis.com/css?family=Roboto);
@@ -280,6 +287,7 @@
  .login-help{
    font-size: 12px;
  }
+
 
  //---------Footer---------
 
