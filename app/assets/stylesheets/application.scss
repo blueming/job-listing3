@@ -120,7 +120,7 @@
 
  .navbar-default .navbar-brand:hover,
  .navbar-default .navbar-brand:focus {
-   color: #455A64; //鼠标放置在链接上的文字颜色
+   color: #66BB6A; //鼠标放置在链接上的文字颜色
 
    background-color: 0; //鼠标放置在链接上的背景颜色，这里设为透明
  }
@@ -132,9 +132,9 @@
 
  .navbar-default .navbar-nav > li > a:hover,
  .navbar-default .navbar-nav > li > a:focus {
-   color: #FF6F00;
+   color: #66BB6A;
 
-   background-color: transparent;
+   background-color: 0;
  }
  .navbar-default .navbar-nav > .active > a,
  .navbar-default .navbar-nav > .active > a:hover,
