@@ -24,6 +24,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
+  margin-top: -20px;
 }
 
 .title {
@@ -79,7 +80,8 @@
 .thumbnail {
     border: 0 none;
     box-shadow: none;
-    margin-top: 60px;
+    margin-top: 50px;
+
 }
 
 .custab{
@@ -102,7 +104,7 @@
 
      border-color: #212121; //边框色
 
-     margin-bottom: 0; //底部 margin 不撑开距离.
+     //margin-bottom: 0; //底部 margin 不撑开距离.
  }
 
  @media (min-width: 768px) {
@@ -303,3 +305,10 @@
  html { height: 100%;}
    body { min-height: 100%; display: flex; flex-direction: column;}
    .content { flex: 1;}
+
+// --------common------
+
+.col-centerd{
+  float:none;
+  margin:0 auto;
+}
